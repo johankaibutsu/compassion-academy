@@ -7,43 +7,52 @@ import AnimatedElement from '@/components/Common/Animation/AnimatedElement';
 
 export default function Accordion() {
     const AccordionData = [
-        {
-            "title": "What is the total fee payable at the time of admission for regular students?",
-            "description": "The total fee payable at the time of admission for regular students is ₹1,05,200."
-        },
-        {
-            "title": "What is the total fee payable at the time of admission for students allotted through TFW (Tuition Fee Waiver) scheme?",
-            "description": "The total fee payable at the time of admission for students allotted through TFW is ₹53,200."
-        },
-        {
-            "title": "How much is the tuition fee per semester?",
-            "description": "The tuition fee per semester is ₹52,000."
-        },
-        {
-            "title": "Are there any additional fees that might be charged by the University (MAKAUT)?",
-            "description": "Yes, there are additional fees charged by the University, which include:  1) University Development Fees @ ₹550 per year (one-time payment of ₹2,200) 2) University Registration Fees @ ₹500 (one-time payment)"
-        },
-        {
-            "title": "Is the caution deposit refundable?",
-            "description": "Yes, the caution deposit of ₹10,000 is refundable."
-        },
-        {
-            "title": "How can the fees be paid?",
-            "description": "The fees can be paid by cash or demand draft in favour of 'ACADEMY OF TECHNOLOGY,' payable at Kolkata."
-        },
-        {
-            "title": "Are the tuition fees subject to change?",
-            "description": "Yes, the tuition fees may be revised based on directives from the West Bengal Government."
-        },
-        {
-            "title": "What is the Vidyarthi Mediclaim, and how much does it cost?",
-            "description": "Vidyarthi Mediclaim is a medical insurance for students, and it costs ₹2,500 (one-time payment)."
-        },
-        {
-            "title": " What are the fees for library services?",
-            "description": "The library fees, which cover the Book Bank, Journals, and Digital Library, amount to ₹6,000 (one-time payment)."
-        }
-    ]
+      {
+        title:
+          "What is the total fee payable at the time of admission for regular students?",
+        description:
+          "The total fee payable at the time of admission for regular students is ₹1,05,200.",
+      },
+      {
+        title:
+          "What is the total fee payable at the time of admission for students allotted through TFW (Tuition Fee Waiver) scheme?",
+        description:
+          "The total fee payable at the time of admission for students allotted through TFW is ₹53,200.",
+      },
+      {
+        title: "How much is the tuition fee per semester?",
+        description: "The tuition fee per semester is ₹52,000.",
+      },
+      {
+        title: "What is admission process like?",
+        description:
+          "Our admission process includes an online application, academic records review, teacher recommendations, a student essay, and potentially an interview. We assess each applicant holistically, considering academic achievements, extracurricular activities, and personal character.",
+      },
+      {
+        title: "Is the caution deposit refundable?",
+        description: "Yes, the caution deposit of ₹10,000 is refundable.",
+      },
+      {
+        title: "How can the fees be paid?",
+        description:
+          "The fees can be paid by cash or online payment methods either by UPI or Net Banking.",
+      },
+      {
+        title: "Are the tuition fees subject to change?",
+        description:
+          "Yes, the tuition fees may be revised based on directives from CBSE.",
+      },
+      {
+        title: "What makes compassion Academy Unique?",
+        description:
+          "Compassion Academy stands out for its focus on combining academic excellence with emotional intelligence and social responsibility. Our curriculum is designed to nurture not just intellectual growth, but also empathy, compassion, and leadership skills.",
+      },
+      {
+        title: "How does the academy support college preparation?",
+        description:
+          "We provide comprehensive college preparation support including SAT/ACT prep courses, college counseling, assistance with college applications and essays, and opportunities for college visits. Our rigorous curriculum and Advanced Placement courses also help prepare students for higher education.",
+      },
+    ];
 
     return (
         <div className='mb-10'>

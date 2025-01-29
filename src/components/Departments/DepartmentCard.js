@@ -14,12 +14,12 @@ export default function DepartmentCard({ data }) {
 						<h1 className="title-font text-lg font-bold text-gray-900 mb-3">{data.Title}</h1>
 						<p className="leading-relaxed mb-3 text-gray-700">{data.Description}</p>
 						<div className="flex items-center flex-wrap ">
-							<Link href={data.PageLink} className="text-indigo-700 inline-flex items-center md:mb-2 lg:mb-0 font-bold">Viev More
+							{/* <Link href={data.PageLink} className="text-indigo-700 inline-flex items-center md:mb-2 lg:mb-0 font-bold">View More
 								<svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
 									<path d="M5 12h14"></path>
 									<path d="M12 5l7 7-7 7"></path>
 								</svg>
-							</Link>
+							</Link> */}
 							{/* <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
 								<svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
 									<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>

@@ -11,61 +11,15 @@ export default function Footer() {
 
           {/* G Map  */}
           <AnimatedElement className=' rounded-lg '>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.9295269261065!2d88.37397647408291!3d22.95282237922273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8930eeb863655%3A0xb3a6adf26d41d0b5!2sAcademy%20of%20Technology!5e0!3m2!1sen!2sin!4v1713956112554!5m2!1sen!2sin" width="100%" height="400" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.9295269261065!2d88.37397647408291!3d22.95282237922273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8930eeb863655%3A0xb3a6adf26d41d0b5!2sAcademy%20of%20Technology!5e0!3m2!1sen!2sin!4v1713956112554!5m2!1sen!2sin" width="100%" height="500" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </AnimatedElement>
 
 
           {/* Footer Links  */}
           {/* Departments */}
           <AnimatedElement className=" flex-grow flex flex-wrap mb-10 text-left order-first">
-            <div className="lg:w-2/5 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Departments</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <Link href="/academics/departments/ece" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electronics & Communication</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/cse" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Computer Science</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/csbs" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Computer Science & Business Systems</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/ee" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electrical Engineering</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/eee" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Electrical & Electronics</Link>
-                </li>
-                <li>
-                  <Link href="/academics/departments/me" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Mechanical Engineering</Link>
-                </li>
-              </nav>
-            </div>
 
             {/* Downloads */}
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">B. Tech Syllabus</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a target='_blank' href='https://makautexam.net/aicte_details/CourseStructure/CSBS20.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; CSBS</a>
-                </li>
-                <li>
-                  <a target='_blank' href='https://makautexam.net/aicte_details/CourseStructure/CSE.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; CSE</a>
-                </li>
-                <li>
-                  <a target='_blank' href='https://makautexam.net/aicte_details/CourseStructure/ECE.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; ECE</a>
-                </li>
-                <li>
-                  <a target='_blank' href='https://makautexam.net/aicte_details/CourseStructure/EE.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; EE</a>
-                </li>
-                <li>
-                  <a target='_blank' href='https://makautexam.net/aicte_details/CourseStructure/EEE.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; EEE</a>
-                </li>
-                <li>
-                  <a target='_blank' href='https://makautexam.net/aicte_details/CourseStructure/ME.pdf' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; ME</a>
-                </li>
-              </nav>
-            </div>
             {/* Admission Enquiry */}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Admission Enquiry</h2>
@@ -82,7 +36,7 @@ export default function Footer() {
 
             {/* AOT Online */}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">AOT Online</h2>
+              <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Compassion Academy Online</h2>
               <nav className="list-none mb-10">
                 <li>
                   <a target='_blank' href='https://www.linkedin.com/school/academy-of-technology/' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; LinkedIn</a>
@@ -95,9 +49,6 @@ export default function Footer() {
                 </li>
                 <li>
                   <a target='_blank' href='http://182.74.215.198/moodle/' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Moodle Portal Login</a>
-                </li>
-                <li>
-                  <a target='_blank' href='https://gic.aot.edu.in/index.html' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Google Innovation Centre</a>
                 </li>
 
               </nav>
@@ -120,8 +71,8 @@ export default function Footer() {
         <div>
           <div>
             <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-              <p className="text-gray-300 text-sm text-center sm:text-left">© 2024 AOT —
-                <a rel="noopener noreferrer" className="text-gray-300 ml-1" target="_blank">@aot</a>
+              <p className="text-gray-300 text-sm text-center sm:text-left">© 2020 Compassion Academy —
+                <a rel="noopener noreferrer" className="text-gray-300 ml-1" target="_blank">@compassionacademy</a>
               </p>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                 <a className="text-gray-300" href='https://m.facebook.com/profile.php?id=100067475193505&name=xhp_nt_' target='_blank'>
