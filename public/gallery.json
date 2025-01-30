@@ -1,0 +1,20 @@
+{
+  "gallery": [
+    {
+      "img": "/images/collegepic(4).jpg",
+      "description": "abc"
+    },
+    {
+      "img": "/images/collegepic(3).jpg",
+      "description": "abc"
+    },
+    {
+      "img": "/images/collegepic(2).jpg",
+      "description": "abc"
+    },
+    {
+      "img": "/images/collegepic(1).jpg",
+      "description": "abc"
+    }
+  ]
+}
