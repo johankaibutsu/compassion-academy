@@ -19,7 +19,7 @@ export default function Navbar() {
 
             {/* college name and logo  */}
             <Link href="/" className="flex items-center space-x-3">
-              <img src="/collegelogo.png" className="h-6 md:h-8 lg:h-10" alt="AOT Logo" />
+              <img src="/logo.jpg" className="h-6 md:h-8 lg:h-10" alt="Academy Logo" />
               <AnimatedElement className="font-bold  font-serif text-xs sm:text-lg text-blue-900 ">
                 Compassion Academy
                 <div className="text-[8px] sm:text-xs text-right ">

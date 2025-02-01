@@ -10,28 +10,28 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 
   icons: {
-    icon: '/logo.jpeg',
-    shortcut: '/logo.jpeg',
-    apple: '/logo.jpeg',
+    icon: '/logo.jpg',
+    shortcut: '/logo.jpg',
+    apple: '/logo.jpg',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: '/logo.jpeg',
+      url: '/logo.jpg',
     },
   },
 
   openGraph: {
     title: 'Compassion Academy',
     description: 'Compassion Academy',
-    url: '/logo.jpeg',
+    url: '/logo.jpg',
     siteName: 'Compassion Academy',
     images: [
       {
-        url: '/logo.jpeg', // Must be an absolute URL
+        url: '/logo.jpg', // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: '/logo.jpeg', // Must be an absolute URL
+        url: '/logo.jpg', // Must be an absolute URL
         width: 1800,
         height: 1600,
         alt: 'Compassion Academy',
